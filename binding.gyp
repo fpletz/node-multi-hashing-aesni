@@ -21,10 +21,10 @@
                 "<!(node -e \"require('nan')\")",
             ],
 			"cflags_c": [
-				"-std=gnu11 -march=native -fPIC -m64"
+				"-std=gnu11 -march=native -fPIC -m64 -maes"
 			],
             "cflags_cc": [
-                "-std=gnu++11 -fPIC -m64"
+                "-std=gnu++11 -fPIC -m64 -maes"
             ],
         }
     ]
